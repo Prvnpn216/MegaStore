@@ -1,0 +1,36 @@
+package com.xpert.marketplace;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class Offerpage extends Activity {
+
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_offerpage);
+		
+		int Images[]={
+				R.drawable.admission,
+				R.drawable.canteen,
+				R.drawable.contacts,
+				R.drawable.courses,
+				R.drawable.events,
+				R.drawable.faculties,
+				R.drawable.feedback,
+				R.drawable.fulsite,
+				R.drawable.gallery,
+				R.drawable.info,
+				R.drawable.lib,
+				R.drawable.login,
+				R.drawable.loginig,
+				R.drawable.news,
+				R.drawable.settings,
+				R.drawable.placement
+				};
+		
+	}
+}

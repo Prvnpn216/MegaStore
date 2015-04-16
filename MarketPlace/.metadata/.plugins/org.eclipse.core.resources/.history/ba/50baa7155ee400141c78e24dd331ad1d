@@ -1,0 +1,50 @@
+package com.xpert.marketplace;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class Offerpage extends Activity {
+
+	
+	int Images[]={
+			R.drawable.admission,
+			R.drawable.canteen,
+			R.drawable.contacts,
+			R.drawable.courses,
+			R.drawable.events,
+			R.drawable.faculties,
+			R.drawable.feedback,
+			R.drawable.fulsite,
+			R.drawable.gallery,
+			R.drawable.info,
+			R.drawable.lib,
+			R.drawable.login,
+			R.drawable.loginig,
+			R.drawable.news,
+			R.drawable.settings,
+			R.drawable.placement
+			};
+	
+	ImageView iv;
+	TextView Company;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_offerpage);
+		Company = (TextView) findViewById(R.id.textView2);
+		iv =(ImageView) findViewById(R.id.imageView1);
+		String position = getIntent().getStringExtra("position");
+		String name = getIntent().getStringExtra("name");
+		String id = getIntent().getStringExtra("id");
+		Toast.makeText(Offerpage.this, position , Toast.LENGTH_LONG).show();
+		iv.setImageResource(Images[Integer.parseInt(position)]);
+		Company.setText(name);
+		
+	}
+}

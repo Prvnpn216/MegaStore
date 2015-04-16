@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_stores">Stores</string>
+    <string name="title_activity_offerpage">Offers</string>
+    <string name="ipAddress">192.168.1.103</string>
+
+     <string-array name="titles">
+         <item>DemoItem1</item>
+         <item>DemoItem2</item>
+         <item>DemoItem3</item>
+         <item>DemoItem4</item>
+         <item>DemoItem5</item>
+         <item>DemoItem6</item>
+         <item>DemoItem7</item>
+         <item>DemoItem8</item> 
+         <item>DemoItem1</item>
+         <item>DemoItem2</item>
+         <item>DemoItem3</item>
+         <item>DemoItem4</item>
+         <item>DemoItem5</item>
+         <item>DemoItem6</item>
+         <item>DemoItem7</item>
+         <item>DemoItem8</item>       
+    </string-array>
+    
+	<string-array name="description">
+         <item>DescriptionItem1</item>
+         <item>DescriptionItem2</item>
+         <item>DescriptionItem3</item>
+         <item>DescriptionItem4</item>
+         <item>DescriptionItem5</item>
+         <item>DescriptionItem6</item>
+         <item>DescriptionItem7</item>
+         <item>DescriptionItem8</item>       
+         <item>DescriptionItem1</item>
+         <item>DescriptionItem2</item>
+         <item>DescriptionItem3</item>
+         <item>DescriptionItem4</item>
+         <item>DescriptionItem5</item>
+         <item>DescriptionItem6</item>
+         <item>DescriptionItem7</item>
+         <item>DescriptionItem8</item>       
+    </string-array>
+</resources>
